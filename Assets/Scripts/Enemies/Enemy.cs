@@ -111,7 +111,8 @@ public class Enemy : MonoBehaviour
     public void DoBeforeDestroy()
     {
         AddToScore();
-        IncrementEnemiesDefeated();
+        //IncrementEnemiesDefeated();
+        GameObject.Find("GameManager").GetComponent<GameManager>().IncrementEnemiesDefeated();
     }
 
     /// <summary>

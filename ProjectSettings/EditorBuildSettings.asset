@@ -11,5 +11,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/_Scenes/Level2.unity
+    guid: 956c4aa7b8a0729489dfcac599192a36
+  - enabled: 1
+    path: Assets/_Scenes/PreBoss.unity
+    guid: cf7943bf57f0cd14983a7d1f403460b5
+  - enabled: 1
+    path: Assets/_Scenes/Boss Room.unity
+    guid: 9f5de691af38f0246b50f7d54696f78a
+  - enabled: 1
+    path: Assets/_Scenes/Victory.unity
+    guid: 66446c72ec5963a40bfd92bb1298f361
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 4b6627bdb09239c47ad54869a83913e4, type: 2}

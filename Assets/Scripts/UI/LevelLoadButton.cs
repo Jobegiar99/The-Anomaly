@@ -9,6 +9,10 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class LevelLoadButton : MonoBehaviour
 {
+
+    public GameObject generatingLevelMessage = null;
+    public GameObject parentObject;
+
     /// <summary>
     /// Description:
     /// Loads a level according to the name provided
@@ -21,6 +25,11 @@ public class LevelLoadButton : MonoBehaviour
     public void LoadLevelByName(string levelToLoadName)
     {
         Time.timeScale = 1;
+        Debug.Log(generatingLevelMessage);
+        if (generatingLevelMessage != null)
+        {
+            Instantiate(generatingLevelMessage,this.transform.position,Quaternion.identity).transform.parent = parentObject.transform;
+        }
         SceneManager.LoadScene(levelToLoadName);
     }
 }
