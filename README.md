@@ -18,5 +18,5 @@
   <li> Create prefabs to reuse objects </li>
 </ul>
     
-<h3 align = "center"> You can play the game at the <a href = "https://jobegiar99.itch.io/the-anomaly"> itch.io page that I created for it </a> </h3>
+<h3 align = "center"> You can play the game on  <a href = "https://www.newgrounds.com/portal/view/816817"> Newgrounds </a> </h3>
 
